@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background-color: #4e5944;
+  height: 13vh;
+  padding-top: 2.5em;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 13em;
+  margin-bottom: 1em;
+}
+.header-list {
+  padding-top: 1.7em;
+  display: flex;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: underline;
+  list-style: none;
+  gap: 2em;
+  padding-right: 21em;
+  font-size: 13px;
+  cursor: pointer;
+}
+.main1 {
+  display: flex;
+  background-color: blue;
+  width: 958px;
+  margin-left: 16.5em;
+}
+.main1-pic {
+  padding-left: 21em;
+}
+
+.main1-text1 {
+  color: #4e5944;
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 48px;
+  margin: 0;
+  text-transform: none;
+}
