@@ -4,36 +4,68 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="facebook.css" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        background-color: rgb(245, 245, 247);
+      }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <main class="main">
-      <div class="facebook">
-        <img src="" />
-        <div class="facebook-text">
+    <main class="mt-20 w-[82vw] h-[80vh] ml-16 flex box-border">
+      <div class="box-border mt-24 ml-44 h-48">
+        <img
+          width="320"
+          height="106"
+          src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg"
+        />
+        <div
+          class="text-[28px] font-normal leading-[32px] w-[500px] pl-8 mt-[-2] font-sans"
+        >
           Facebook helps you connect and share with the people in your life.
         </div>
       </div>
-      <div class="login">
+      <div
+        class="shadow-[0_2px_4px_rgba(0,0,0,1),_0_8px_16px_rgba(0,0,0,0.1)] w-[396px] h-[320.825px] ml-20 mt-16"
+      >
         <div class="input-1">
-          <input type="text" placeholder="Email address or phone number" />
+          <input
+            class="w-[344px] h-[38px] rounded-md mb-4 ml-4 mt-4 border border-[#dddfe2] text-[17px] pl-4"
+            type="text"
+            placeholder="Email address or phone number"
+          />
         </div>
         <div class="input-2">
-          <input type="password" placeholder="Password" />
+          <input
+            class="w-[344px] h-[38px] rounded-md mb-4 ml-4 border border-[#dddfe2] text-[17px] pl-4"
+            type="password"
+            placeholder="Password"
+          />
         </div>
         <div class="login-button">
-          <button>Log in</button>
+          <button
+            class="w-[345px] h-10 border-none text-[20px] rounded-md mb-4 ml-4 px-4 bg-[#0866ff] text-white font-bold cursor-pointer"
+          >
+            Log in
+          </button>
         </div>
         <div class="forgot">
           <a
+            class="ml-36 mb-4 text-[#0866ff] no-underline"
             href="https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0"
             >Forgotten password</a
           >
-          <div class="border"></div>
+          <div class="mt-4 border border-[#dadde1] mx-8"></div>
         </div>
 
         <div class="create">
-          <button>Create new account</button>
+          <button
+            class="mt-4 ml-24 w-[190px] h-12 bg-[#42b72a] border-none rounded-md text-[17px] text-white font-bold"
+          >
+            Create new account
+          </button>
         </div>
       </div>
     </main>

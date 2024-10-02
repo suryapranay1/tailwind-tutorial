@@ -1,13 +1,16 @@
 * {
   margin: 0;
   padding: 0;
+  background-color: rgb(245, 245, 247);
 }
 .main {
   margin-top: 5em;
   width: 82vw;
   height: 80vh;
-  margin-left: 8em;
+  margin-left: 4em;
   display: flex;
+
+  box-sizing: border-box;
 }
 .login {
   /* White shadow with transparency */
@@ -15,7 +18,8 @@
 
   width: 396px;
   height: 320.825px;
-  margin-left: 19em;
+  margin-left: 5em;
+
   margin-top: 4em;
 }
 .login-button button {
@@ -34,8 +38,8 @@
   cursor: pointer;
 }
 .input-1 input {
-  width: 330px;
-  height: 40px;
+  width: 344px;
+  height: 38px;
   border-radius: 6px;
   margin-bottom: 1em;
   margin-left: 1em;
@@ -46,8 +50,8 @@
 }
 
 .input-2 input {
-  width: 330px;
-  height: 40px;
+  width: 344px;
+  height: 38px;
   border-radius: 6px;
   margin-bottom: 1em;
   margin-left: 1em;
@@ -80,4 +84,20 @@
   color: white;
   font-weight: bold;
   height: 3em;
+}
+.facebook {
+  box-sizing: border-box;
+  margin-top: 6em;
+  margin-left: 11em;
+
+  height: 12em;
+}
+.facebook-text {
+  font-size: 28px;
+  font-weight: normal;
+  line-height: 32px;
+  width: 500px;
+  padding-left: 1em;
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  margin-top: -0.5em;
 }
